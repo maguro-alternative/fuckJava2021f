@@ -1,0 +1,30 @@
+<!--
+    20206076
+    佐々木陽貴
+    課題9-build.xml
+-->
+<project name="ex08" default="compile">
+    <target name="compile">
+        <javac srcdir="src" destdir="classes" includeantruntime="false"/>
+    </target>
+</project>
+<!--<project name="close" default="compile">
+    <target name="compile">
+        <javac srcdir="src" destdir="classes" includeantruntime="false"/>
+    </target>
+</project>
+<project name="deposit" default="compile">
+    <target name="compile">
+        <javac srcdir="src" destdir="classes" includeantruntime="false"/>
+    </target>
+</project>
+<project name="withdraw" default="compile">
+    <target name="compile">
+        <javac srcdir="src" destdir="classes" includeantruntime="false"/>
+    </target>
+</project>
+<project name="balance" default="compile">
+    <target name="compile">
+        <javac srcdir="src" destdir="classes" includeantruntime="false"/>
+    </target>
+</project>-->

@@ -1,0 +1,75 @@
+<!--
+    20206076
+    佐々木陽貴
+    課題9-web.xml
+-->
+<web-app>
+    <servlet>
+        <servlet-name>BankServlet1</servlet-name>
+        <servlet-class>BankServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BankServlet1</servlet-name>
+        <url-pattern>/bank</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>BankServlet2</servlet-name>
+        <servlet-class>OpenServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BankServlet2</servlet-name>
+        <url-pattern>/open</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>BankServlet3</servlet-name>
+        <servlet-class>CloseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BankServlet3</servlet-name>
+        <url-pattern>/close</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>BankServlet4</servlet-name>
+        <servlet-class>DepositServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BankServlet4</servlet-name>
+        <url-pattern>/deposit</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>BankServlet5</servlet-name>
+        <servlet-class>WithdrawServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BankServlet5</servlet-name>
+        <url-pattern>/withdraw</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>BankServlet6</servlet-name>
+        <servlet-class>BalanceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BankServlet6</servlet-name>
+        <url-pattern>/balance</url-pattern>
+    </servlet-mapping>
+    
+
+    <servlet>
+        <servlet-name>CarServlet</servlet-name>
+        <servlet-class>CarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarServlet</servlet-name>
+        <url-pattern>/carshop</url-pattern>
+    </servlet-mapping>
+</web-app>
